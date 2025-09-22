@@ -11,8 +11,11 @@ const mockImages = mockUrls.map((url, index) => ({
 //test sknjkldjnf
 export default function HomePage() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-			<div className="flex flex-wrap gap-4">{
+		<main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#EE4B2B] to-[#d1e8e3] text-white">
+
+			<h1 className="text-blue">References</h1>
+
+			<div className="flex flex-wrap gap-4"> {
 			mockImages.map((image) => (
 				<div key ={image.id} className="w-48"> 
 				<img src={image.url} alt="image" />
