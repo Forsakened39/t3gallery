@@ -1,7 +1,8 @@
 import Link from "next/link";
 const mockUrls = ["https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgI8PHrJdoywpz3bPQMKUcaqY1m09ukrjxVGES"
 	,"https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgA1cxIl0mkSsT3tfF6xrnH2yC4lzLwdObPRvU"
-	,"https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgFX0HnroPuaKHey2g9YMLfb71ts0CWSBOdjvp"]
+	,"https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgFX0HnroPuaKHey2g9YMLfb71ts0CWSBOdjvp"
+	,"https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgXgwmWcFs9QaG18AMrjh3On6LWYdEZVqw7PNF"]
 const mockImages = mockUrls.map((url, index) => ({
 	id: index + 1,
 	url,
