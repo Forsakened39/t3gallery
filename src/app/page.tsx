@@ -13,7 +13,7 @@ const mockImages = mockUrls.map((url, index) => ({
 //only file that doesnt get uploaded is env
 export default function HomePage() {
 	return (
-		<main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-[#EE4B2B] to-[#d1e8e3] text-white">
+		<main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-r from-[#DD1717] to-[#0F4392] text-white">
 
 			<h1 className="text-blue">References</h1>
 
