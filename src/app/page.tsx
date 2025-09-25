@@ -25,6 +25,9 @@ export default function HomePage() {
 			))
 			}
 			</div>
+      		<button>			
+				<Link href="../layer02">Layer02</Link>
+			</button>
 		</main>
 	);
 }
