@@ -25,7 +25,7 @@ export default function HomePage() {
 			))
 			}
 			</div>
-      		<button>			
+      		<button className="btn btn-wide">			
 				<Link href="../layer02">Layer02</Link>
 			</button>
 		</main>
