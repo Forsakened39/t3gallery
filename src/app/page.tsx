@@ -16,18 +16,27 @@ export default function HomePage() {
 		<main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#fafbf6] to-[#0f0f1b] text-white">
 
 			<h1 className="text-blue">References</h1>
-
 			<div className="flex flex-wrap gap-4"> {
 			mockImages.map((image) => (
 				<div key ={image.id} className="w-60"> 
 				<img src={image.url} alt="image" />
 				</div>
+			
 			))
 			}
+			</div>
+			<div className="carousel carousel-vertical rounded-box h-96">
+				<div className="carousel-item h-full">
+					<img src="https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgFX0HnroPuaKHey2g9YMLfb71ts0CWSBOdjvp" />
+				</div>
+				<div className="carousel-item h-full">
+					<img src="https://k6fbvcjxww.ufs.sh/f/9pjQNL6bGuVgXgwmWcFs9QaG18AMrjh3On6LWYdEZVqw7PNF" />
+				</div>
 			</div>
       		<button className="btn btn-wide">			
 				<Link href="../layer02">Layer02</Link>
 			</button>
+
 		</main>
 	);
 }

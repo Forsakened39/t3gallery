@@ -14,7 +14,9 @@ export default function Layer2Page() {
             <li><a>What if They were behind you</a></li>
             <li><a>All your fault</a></li>
           </ul>
-        </div>
+      </div>
+
+      
     </main>
   );
 }
